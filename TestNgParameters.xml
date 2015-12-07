@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSiute" thread-count="3">
+    <parameter name="author" value="guru99"/>
+    <parameter name="searchKey" value="India"/>
+   <test name="testGuru">
+       <parameter name="searchKey" value="UK"/>
+       <parameter name="searchKey" value="India"/>  
+ <classes>
+            <class name="testcases.TestNgXml"></class>
+       </classes>
+        
+    </test>
+    
+   <test name="Registration">
+       <classes>
+       <class name="testcases.Registration">
+                      
+       </class>
+       </classes>
+   </test>
+   
+   <test name="Yahoo Registration">
+       <classes>
+           
+           <class name="testcases.DataProvider_Example"></class>
+           
+       </classes>
+       
+       
+   </test>
+        
+</suite>
+
+
+

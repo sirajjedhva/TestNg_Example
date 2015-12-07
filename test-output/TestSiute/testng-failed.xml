@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [TestSiute]">
+  <parameter name="author" value="guru99"/>
+  <parameter name="searchKey" value="India"/>
+  <test name="testGuru(failed)">
+    <parameter name="searchKey" value="India"/>
+    <classes>
+      <class name="testcases.TestNgXml">
+        <methods>
+          <include name="xmlParameter" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.TestNgXml -->
+    </classes>
+  </test> <!-- testGuru(failed) -->
+</suite> <!-- Failed suite [TestSiute] -->
