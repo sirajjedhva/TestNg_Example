@@ -18,18 +18,17 @@ public class ExcelData {
 		  			File file=new File(filepath);
 		  			FileInputStream fis=new FileInputStream(file);
 		  			hwb=new HSSFWorkbook(fis);
-		  				if(hwb==null){
+		  				if(hwb==null)
+		  				{
 		  				System.out.println("Sheet is null");
 		  				}
-		      
-		         }
-		  	     catch(Exception e)	
+		        }catch(Exception e)	
 		  		{
-		  			e.printStackTrace();
+		  		e.printStackTrace();
 		        }
 					
 	   }
-	    public String getData(int sheetnumber,int row,int col){
+public String getData(int sheetnumber,int row,int col){
 			
 	    	sheet=hwb.getSheetAt(sheetnumber);
 			if(sheet==null)

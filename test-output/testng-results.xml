@@ -2,54 +2,60 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Test Suite" duration-ms="13299" started-at="2015-12-03T06:02:44Z" finished-at="2015-12-03T06:02:57Z">
+  <suite name="Default suite" duration-ms="97962" started-at="2015-12-09T11:31:43Z" finished-at="2015-12-09T11:33:21Z">
     <groups>
     </groups>
-    <test name="ChromeTest" duration-ms="6128" started-at="2015-12-03T06:02:44Z" finished-at="2015-12-03T06:02:50Z">
-      <class name="parallelTest.CrossBrowserScript">
-        <test-method status="PASS" signature="testBrowser(java.lang.String)[pri:0, instance:parallelTest.CrossBrowserScript@12036a1]" name="testBrowser" is-config="true" duration-ms="2848" started-at="2015-12-03T11:32:44Z" finished-at="2015-12-03T11:32:47Z">
+    <test name="Default test" duration-ms="97962" started-at="2015-12-09T11:31:43Z" finished-at="2015-12-09T11:33:21Z">
+      <class name="facebook.FacebookLogin">
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String)[pri:0, instance:facebook.FacebookLogin@499eb5]" name="openBrowser" duration-ms="44113" started-at="2015-12-09T17:01:43Z" data-provider="FacebookData" finished-at="2015-12-09T17:02:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[nilaminx@yahoo.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[inx@123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testBrowser -->
-        <test-method status="PASS" signature="login()[pri:0, instance:parallelTest.CrossBrowserScript@12036a1]" name="login" duration-ms="3086" started-at="2015-12-03T11:32:47Z" finished-at="2015-12-03T11:32:50Z">
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:facebook.FacebookLogin@499eb5]" name="logout" is-config="true" duration-ms="16509" started-at="2015-12-09T17:02:27Z" finished-at="2015-12-09T17:02:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="quite()[pri:0, instance:parallelTest.CrossBrowserScript@12036a1]" name="quite" is-config="true" duration-ms="170" started-at="2015-12-03T11:32:50Z" finished-at="2015-12-03T11:32:50Z">
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:facebook.FacebookLogin@499eb5]" name="quit" is-config="true" duration-ms="598" started-at="2015-12-09T17:02:44Z" finished-at="2015-12-09T17:02:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quite -->
-      </class> <!-- parallelTest.CrossBrowserScript -->
-    </test> <!-- ChromeTest -->
-    <test name="FireFox" duration-ms="7118" started-at="2015-12-03T06:02:50Z" finished-at="2015-12-03T06:02:57Z">
-      <class name="parallelTest.CrossBrowserScript">
-        <test-method status="PASS" signature="testBrowser(java.lang.String)[pri:0, instance:parallelTest.CrossBrowserScript@136d8e4]" name="testBrowser" is-config="true" duration-ms="4387" started-at="2015-12-03T11:32:50Z" finished-at="2015-12-03T11:32:55Z">
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String)[pri:0, instance:facebook.FacebookLogin@499eb5]" name="openBrowser" duration-ms="29544" started-at="2015-12-09T17:02:44Z" data-provider="FacebookData" finished-at="2015-12-09T17:03:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[inxiphoneteam@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[inheritx@123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testBrowser -->
-        <test-method status="PASS" signature="login()[pri:0, instance:parallelTest.CrossBrowserScript@136d8e4]" name="login" duration-ms="2720" started-at="2015-12-03T11:32:55Z" finished-at="2015-12-03T11:32:57Z">
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:facebook.FacebookLogin@499eb5]" name="logout" is-config="true" duration-ms="6307" started-at="2015-12-09T17:03:14Z" finished-at="2015-12-09T17:03:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="quite()[pri:0, instance:parallelTest.CrossBrowserScript@136d8e4]" name="quite" is-config="true" duration-ms="10" started-at="2015-12-03T11:32:57Z" finished-at="2015-12-03T11:32:57Z">
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:facebook.FacebookLogin@499eb5]" name="quit" is-config="true" duration-ms="579" started-at="2015-12-09T17:03:20Z" finished-at="2015-12-09T17:03:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quite -->
-      </class> <!-- parallelTest.CrossBrowserScript -->
-    </test> <!-- FireFox -->
-  </suite> <!-- Test Suite -->
+        </test-method> <!-- quit -->
+      </class> <!-- facebook.FacebookLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
