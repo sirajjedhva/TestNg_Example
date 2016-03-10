@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="facebook.FacebookLogin">
+      <class name="com.parameter.example.ParameterByITestContextInDataprovider">
         <methods>
-          <include name="openBrowser"/>
-          <include name="logout"/>
+          <include name="testMethodB"/>
+          <include name="setup"/>
+          <include name="testMethodA"/>
         </methods>
-      </class> <!-- facebook.FacebookLogin -->
+      </class> <!-- com.parameter.example.ParameterByITestContextInDataprovider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

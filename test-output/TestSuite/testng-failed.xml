@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [TestSuite]">
+  <parameter name="author" value="Guru99"/>
+  <parameter name="searchKey" value="India"/>
+  <test name="testGuru(failed)">
+    <parameter name="searchKey" value="India"/>
+    <classes>
+      <class name="com.parameter.example.ParameterWithTestNGXML">
+        <methods>
+          <include name="quit"/>
+          <include name="testWithParameter"/>
+        </methods>
+      </class> <!-- com.parameter.example.ParameterWithTestNGXML -->
+    </classes>
+  </test> <!-- testGuru(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

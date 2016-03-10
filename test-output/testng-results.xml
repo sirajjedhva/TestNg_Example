@@ -1,61 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="97962" started-at="2015-12-09T11:31:43Z" finished-at="2015-12-09T11:33:21Z">
+  <suite name="test-parameter" duration-ms="33719" started-at="2016-03-03T10:24:05Z" finished-at="2016-03-03T10:24:39Z">
     <groups>
+      <group name="A">
+        <method signature="ParameterByITestContextInDataprovider.testMethodA(java.lang.String, java.lang.String)[pri:0, instance:com.parameter.example.ParameterByITestContextInDataprovider@126261c]" name="testMethodA" class="com.parameter.example.ParameterByITestContextInDataprovider"/>
+      </group> <!-- A -->
+      <group name="B">
+        <method signature="ParameterByITestContextInDataprovider.testMethodB(java.lang.String)[pri:0, instance:com.parameter.example.ParameterByITestContextInDataprovider@a6e962]" name="testMethodB" class="com.parameter.example.ParameterByITestContextInDataprovider"/>
+      </group> <!-- B -->
     </groups>
-    <test name="Default test" duration-ms="97962" started-at="2015-12-09T11:31:43Z" finished-at="2015-12-09T11:33:21Z">
-      <class name="facebook.FacebookLogin">
-        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String)[pri:0, instance:facebook.FacebookLogin@499eb5]" name="openBrowser" duration-ms="44113" started-at="2015-12-09T17:01:43Z" data-provider="FacebookData" finished-at="2015-12-09T17:02:27Z">
+    <test name="example1" duration-ms="16560" started-at="2016-03-03T10:24:05Z" finished-at="2016-03-03T10:24:22Z">
+      <class name="com.parameter.example.ParameterByITestContextInDataprovider">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.parameter.example.ParameterByITestContextInDataprovider@126261c]" name="setup" is-config="true" duration-ms="9890" started-at="2016-03-03T15:54:05Z" finished-at="2016-03-03T15:54:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testMethodA(java.lang.String, java.lang.String)[pri:0, instance:com.parameter.example.ParameterByITestContextInDataprovider@126261c]" name="testMethodA" duration-ms="3445" started-at="2016-03-03T15:54:15Z" data-provider="SearchProvider" finished-at="2016-03-03T15:54:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[nilaminx@yahoo.in]]>
+                <![CDATA[India]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[inx@123]]>
+                <![CDATA[uk]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:facebook.FacebookLogin@499eb5]" name="logout" is-config="true" duration-ms="16509" started-at="2015-12-09T17:02:27Z" finished-at="2015-12-09T17:02:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:facebook.FacebookLogin@499eb5]" name="quit" is-config="true" duration-ms="598" started-at="2015-12-09T17:02:44Z" finished-at="2015-12-09T17:02:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String)[pri:0, instance:facebook.FacebookLogin@499eb5]" name="openBrowser" duration-ms="29544" started-at="2015-12-09T17:02:44Z" data-provider="FacebookData" finished-at="2015-12-09T17:03:14Z">
+        </test-method> <!-- testMethodA -->
+        <test-method status="PASS" signature="testMethodA(java.lang.String, java.lang.String)[pri:0, instance:com.parameter.example.ParameterByITestContextInDataprovider@126261c]" name="testMethodA" duration-ms="3163" started-at="2016-03-03T15:54:19Z" data-provider="SearchProvider" finished-at="2016-03-03T15:54:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[inxiphoneteam@gmail.com]]>
+                <![CDATA[Usa]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[inheritx@123]]>
+                <![CDATA[Aus]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:facebook.FacebookLogin@499eb5]" name="logout" is-config="true" duration-ms="6307" started-at="2015-12-09T17:03:14Z" finished-at="2015-12-09T17:03:20Z">
+        </test-method> <!-- testMethodA -->
+      </class> <!-- com.parameter.example.ParameterByITestContextInDataprovider -->
+    </test> <!-- example1 -->
+    <test name="example2" duration-ms="17093" started-at="2016-03-03T10:24:22Z" finished-at="2016-03-03T10:24:39Z">
+      <class name="com.parameter.example.ParameterByITestContextInDataprovider">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.parameter.example.ParameterByITestContextInDataprovider@a6e962]" name="setup" is-config="true" duration-ms="10475" started-at="2016-03-03T15:54:22Z" finished-at="2016-03-03T15:54:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:facebook.FacebookLogin@499eb5]" name="quit" is-config="true" duration-ms="579" started-at="2015-12-09T17:03:20Z" finished-at="2015-12-09T17:03:21Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testMethodB(java.lang.String)[pri:0, instance:com.parameter.example.ParameterByITestContextInDataprovider@a6e962]" name="testMethodB" duration-ms="3425" started-at="2016-03-03T15:54:33Z" data-provider="SearchProvider" finished-at="2016-03-03T15:54:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Japan]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- facebook.FacebookLogin -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- testMethodB -->
+        <test-method status="PASS" signature="testMethodB(java.lang.String)[pri:0, instance:com.parameter.example.ParameterByITestContextInDataprovider@a6e962]" name="testMethodB" duration-ms="3189" started-at="2016-03-03T15:54:36Z" data-provider="SearchProvider" finished-at="2016-03-03T15:54:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[China]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodB -->
+      </class> <!-- com.parameter.example.ParameterByITestContextInDataprovider -->
+    </test> <!-- example2 -->
+  </suite> <!-- test-parameter -->
 </testng-results>

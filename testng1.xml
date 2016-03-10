@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="My first suite">
+    <test name="Learning ">
+        <classes>
+        <class name="ExcelFile_Example.ExcelData">    </class>
+        </classes>
+               
+    </test>
+    <test name="Upload">
+        <classes>
+            <class name="ExcelFile_Example.InxPms_Login"></class>
+        </classes>
+        
+    </test>
+</suite>

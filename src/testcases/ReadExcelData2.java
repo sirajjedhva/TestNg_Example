@@ -1,10 +1,5 @@
 package testcases;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-
-import org.apache.poi.hssf.usermodel.HSSFRow;
-
 import Excellib.ExcelData2;
 
 public class ReadExcelData2 {
@@ -22,7 +17,7 @@ public class ReadExcelData2 {
 		Object[][] data=new Object[rows][cols];{
 		for(int i=0;i<rows;i++){
 			for(int j=0;j<cols;j++){
-			data[i][j]=excel.excelData(0, i, j);
+			data[i][j]=excel.excelData(1, i, j);
 			//data[i][1]=excel.excelData(0, i, 1);
 		    //data[i][2]=excel.excelData(0, i, 2);
 			System.out.print(data[i][j]+" || ");

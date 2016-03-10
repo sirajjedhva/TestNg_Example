@@ -2,14 +2,9 @@ package Excellib;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.util.HashMap;
-
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-
-
-import testcases.ReadExcelData2;
 
 public class ExcelData2 {
 	HSSFWorkbook wb;
